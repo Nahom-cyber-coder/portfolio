@@ -7,7 +7,7 @@ const AnimusGrid = () => {
 
   return (
     <div className="absolute inset-0 overflow-hidden">
-      {/* Animated Background Grid */}
+     
       <div className="absolute inset-0 opacity-20">
         <div className="grid grid-cols-20 gap-1 h-full w-full">
           {cells.map((i) => (
@@ -30,7 +30,6 @@ const AnimusGrid = () => {
         </div>
       </div>
 
-      {/* Floating Ancient Symbols */}
       <div className="absolute inset-0">
         {[...Array(8)].map((_, i) => (
           <motion.div
@@ -56,7 +55,6 @@ const AnimusGrid = () => {
         ))}
       </div>
 
-      {/* Glowing Particles */}
       <div className="absolute inset-0">
         {[...Array(12)].map((_, i) => (
           <motion.div
