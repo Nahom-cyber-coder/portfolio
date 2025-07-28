@@ -10,7 +10,7 @@ const BackgroundMusic = () => {
     if (!audio) return;
 
     if (soundEnabled) {
-      audio.volume = 0.3; // Set volume to 30%
+      audio.volume = 0.3; 
       audio.play().catch(console.error);
     } else {
       audio.pause();
