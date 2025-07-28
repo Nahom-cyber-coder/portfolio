@@ -32,7 +32,7 @@ const Navigation = () => {
             ⚔️ NB
           </motion.div>
 
-          {/* Desktop Menu */}
+          
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item, index) => (
               <motion.a
@@ -50,7 +50,7 @@ const Navigation = () => {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
+          
           <button
             className="md:hidden text-white dark:text-white text-gray-800 hover:text-amber-400 dark:hover:text-amber-400 hover:text-amber-600 transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -59,7 +59,7 @@ const Navigation = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+
         {isMenuOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
