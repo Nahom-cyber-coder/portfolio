@@ -57,7 +57,7 @@ const Contact = () => {
 
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Contact Form */}
+           
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -104,7 +104,7 @@ const Contact = () => {
               </form>
             </motion.div>
 
-            {/* Social Links */}
+
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
